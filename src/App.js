@@ -29,7 +29,7 @@ class App extends Component {
     return ( 
      
       <div className="App">
-      {this.state.customers == null  ? <div> Loading...</div> :
+      {this.state.customers == null  ? <div> Loading in branch...</div> :
       <div>
       <Header/>
       <Body customers={this.state.customers}/>
